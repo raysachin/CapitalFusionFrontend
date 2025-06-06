@@ -1,0 +1,40 @@
+/* Make filters stack on small screens */
+@media (max-width: 768px) {
+  .form-control {
+    margin-bottom: 1rem;
+  }
+
+  .card-body .row {
+    flex-direction: column;
+  }
+
+  .col-md-4,
+  .col-md-6,
+  .offset-2,
+  .offset-6 {
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+}
+
+/* Ensure table scrolls on small screens */
+.table-responsive {
+  overflow-x: auto;
+}
+
+.table th,
+.table td {
+  white-space: nowrap;
+}
+
+/* Optional: Reduce padding and font size for smaller screens */
+@media (max-width: 480px) {
+  .card-header h4,
+  .card-header h5 {
+    font-size: 1.1rem;
+  }
+
+  .table {
+    font-size: 0.85rem;
+  }
+}

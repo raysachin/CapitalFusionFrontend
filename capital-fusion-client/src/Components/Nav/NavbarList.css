@@ -1,0 +1,78 @@
+@import '../colors.css';
+
+.nav-link-animated {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link-animated:hover {
+  color: var(--color-navbar);
+}
+
+/* .nav-link-animated::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-navbar);
+  transition: width 0.3s ease;
+}
+
+.nav-link-animated:hover::after {
+  width: 100%;
+} */
+
+/* Custom button color */
+.custom-btn-primary {
+  background-color: #76b1db;
+  border: none;
+  color: white;
+  padding: 0.5rem 1.2rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Hover effect - grows slightly and brightens */
+.custom-btn-primary:hover,
+.custom-btn-primary:focus {
+  background-color: #3495db;
+  transform: scale(1.05);
+  color: white;
+  text-decoration: none;
+}
+
+/* Custom dropdown styling */
+.custom-dropdown .dropdown-menu {
+  background-color: #222;
+  border-radius: 0.25rem;
+  border: 1px solid #444;
+  min-width: 12rem;
+}
+
+.custom-dropdown .dropdown-item {
+  color: #ddd;
+  padding: 0.5rem 1rem;
+}
+
+.custom-dropdown .dropdown-item:hover,
+.custom-dropdown .dropdown-item:focus {
+  background-color: #3495db;
+  color: white;
+  cursor: pointer;
+}
+
+/* Optional: Change dropdown toggle link color */
+.custom-dropdown > .nav-link.dropdown-toggle {
+  color: #3495db;
+}
+
+.custom-dropdown > .nav-link.dropdown-toggle:hover {
+  color: #3495db;
+}

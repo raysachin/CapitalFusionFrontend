@@ -1,0 +1,109 @@
+.login-modal .modal-dialog {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10vh;
+    /* backdrop-filter: blur(6px); */
+    max-height: 80vh;
+    border-radius: 1rem !important;
+}
+
+.login-modal-content {
+    background-color: #0d0d0d !important;
+    border: #5a5aff;
+    border-radius: 1rem !important;
+    box-shadow: 0 0 10px #0095ff;
+    color: #ffffff;
+    padding: 2rem 1.5rem;
+}
+
+.login-btn {
+    background-color: #0f766e;
+    border: none;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0e5e5a;
+    cursor: pointer;
+}
+
+.registration-modal .modal-dialog {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10vh;
+    /* backdrop-filter: blur(6px); */
+    max-height: 80vh;
+}
+
+.registration-modal-body {
+    padding: 0px !important;
+    border-radius: 1rem !important;
+    max-height: 80vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    border: #5a5aff;
+    border-radius: 1rem !important;
+    box-shadow: 0 0 10px #0095ff;
+}
+
+.registration-modal-content-scrollable {
+    background-color: #0d0d0d !important;
+    color: #ffffff;
+    padding: 2rem 1.5rem;
+}
+
+.registration-btn {
+    background-color: #0f766e;
+    border: none;
+    cursor: pointer;
+}
+
+.registration-btn:hover {
+    background-color: #0e5e5a;
+    cursor: pointer;
+}
+
+.login-popup,
+.registration-popup {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* Generic modal container */
+.custom-modal {
+    max-width: 350px;
+    margin: auto;
+    margin-top: 12vh;
+    backdrop-filter: blur(6px);
+    max-height: 75vh;
+    border-radius: 1rem !important;
+    box-shadow: 0 0 10px #0095ff;
+    border: 1px solid #5a5aff;
+    background-color: #0d0d0d !important;
+    color: #ffffff;
+    padding: 2rem 1.5rem;
+    overflow-y: auto;
+    scrollbar-width: none; /* Firefox */
+}
+
+/* Scrollbar hidden for WebKit browsers */
+.custom-modal::-webkit-scrollbar {
+    display: none;
+}
+
+/* Buttons */
+.btn-primary.custom-btn {
+    background-color: #0f766e;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary.custom-btn:hover {
+    background-color: #0e5e5a;
+}
+
+.btn-outline-light.custom-close-btn {
+    border-radius: 1rem;
+    padding: 0.4rem 1rem;
+    margin-left: 1rem;
+}
