@@ -63,7 +63,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/home" element={<Dashboard />} />
-            <Route
+            {/* <Route
               path="/dashboard"
               element={
                 localStorage.getItem("token") ? (
@@ -72,7 +72,8 @@ function App() {
                   <Navigate to="/" />
                 )
               }
-            />
+            /> */}
+            <Route path="/dashboard" element={<Dashboard/>}></Route>
             <Route path="/user-registration" element={<RegistrationModal />} />
             <Route path="/user-login" element={<LoginModal />} />
             <Route path="/transaction" element={<Transaction />} />
